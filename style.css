@@ -89,8 +89,8 @@ nav * {
     border-radius: 25px;
     border: 1em solid var(--firstTone);
     background-color: var(--firstTone);
-    width: 100em;
-    margin-bottom:1em;
+    width: 200em;
+    padding-bottom: .01em;
 }
     
 iframe {
