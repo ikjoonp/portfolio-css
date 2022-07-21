@@ -109,5 +109,17 @@ tr:nth-child(odd) {
 .contact {
     display:flex;
     justify-content: center;
-    background-color: lightbl;
+    background-color: var(--firstTone);
+}
+.contactForm {
+    border-radius: 25px;
+    background-color: lightblue;
+    padding: 1em;
+    margin: 1em;
+    border-color: white;
+}
+textarea {
+    resize: none;
+    height: 10em;
+    width: 30em;
 }
