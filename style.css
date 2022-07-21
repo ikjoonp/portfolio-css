@@ -8,15 +8,23 @@
     src: url(SourceSansPro-Light.otf);
 }
 
+@keyframes tonal{
+    from {background-color: var(--firstTone);}
+    to {background-color: var(--secondTone);}
+}
+
 * {
     margin: 0px;
 }
+
 
 h1 {
     display: flex;
     justify-content: center;
     font-family: SourceSansProLight, sans-serif;
     background-color: var(--secondTone);
+    animation-name: tonal;
+    animation-duration: 2s;
     padding: 1em;
 }
 
@@ -31,6 +39,10 @@ h3 {
     text-align: center;
 }
 
+p {
+    font-size: large;
+}
+
 nav {
     display: flex;
     flex-flow: row wrap;
@@ -42,19 +54,34 @@ nav * {
     text-decoration: none; 
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    transition: all 1.5s ease;
 }
 
 #info {
     display:flex;
     font-family: 'Times New Roman', Times, serif;
     padding: 0em 1em 1em 1em;
-    flex-direction: right;
+
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+#info p {
+    padding: 2em;
+}
+#info img {
+    padding: 2em;
+
+}
+#info img:hover {
+    transform: scale(2, 2);
 }
 
 .rightHeader {
     display: flex;
     justify-content: right;
-    background-color: var(--secondTone);}
+    background-color: var(--secondTone);
+    animation-name: tonal;
+    animation-duration: 2s;}
 .map {
     margin: 1em;
     border-radius: 25px;
@@ -64,8 +91,10 @@ nav * {
     display: flex;
     flex-direction: row;
     font-family: 'Times New Roman', Times, serif;
-    background-color: var(--secondTone);}
-
+    background-color: var(--secondTone);
+    animation-name: tonal;
+    animation-duration: 2s;
+}
 .coursecontact{
     display:flex;
     flex-direction: right;
@@ -121,5 +150,8 @@ tr:nth-child(odd) {
 textarea {
     resize: none;
     height: 10em;
-    width: 30em;
+    width: 100%;
+}
+ol select {
+    transition:all 3s ease-out;
 }
