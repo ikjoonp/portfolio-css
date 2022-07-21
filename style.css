@@ -77,6 +77,21 @@ nav * {
 #info img:hover {
     transform: scale(1.5, 1.5);
 }
+@media (min-width: 360px){
+    .background {
+        background-image: url(smallbackground.png);
+    }
+}
+@media (min-width: 768px){
+    .background {
+        background-image: url(mediumbackground.png);
+    }
+}
+@media (min-width: 1370px){
+    .background {
+        background-image: url(largebackground.png);
+    }
+}
 
 .rightHeader {
     display: flex;
@@ -118,7 +133,6 @@ iframe {
 .coursecontact{
     display:flex;
     justify-content: space-evenly;
-    background-image: url('background1.jpg');
 }
 .coursework {
     margin: 1em;
