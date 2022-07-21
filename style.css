@@ -47,14 +47,16 @@ nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    padding: 1em;}
+    padding: 1em;
+    margin: .5em;
+}
 nav * {
     display: flex;
     gap: 1.5em;
     text-decoration: none; 
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    transition: all 1.5s ease;
+    transition: all 2s ease;
 }
 
 #info {
