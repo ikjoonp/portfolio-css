@@ -1,0 +1,113 @@
+:root {
+    --firstTone: white;
+    --secondTone: lightgrey;
+}
+
+@font-face {
+    font-family: SourceSansProLight;
+    src: url(SourceSansPro-Light.otf);
+}
+
+* {
+    margin: 0px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: SourceSansProLight, sans-serif;
+    background-color: var(--secondTone);
+    padding: 1em;
+}
+
+h2 {
+    font-family: SourceSansProLight, sans-serif;
+    padding: 1em;
+}
+
+h3 {
+    font-family: SourceSansProLight, sans-serif;
+    padding: .5em 1em;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: 1em;}
+nav * {
+    display: flex;
+    gap: 1.5em;
+    text-decoration: none; 
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#info {
+    display:flex;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0em 1em 1em 1em;
+    flex-direction: right;
+}
+
+.rightHeader {
+    display: flex;
+    justify-content: right;
+    background-color: var(--secondTone);}
+.map {
+    margin: 1em;
+    border-radius: 25px;
+    border: 1em solid var(--firstTone);
+    background-color: var(--firstTone);}
+#interests{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--secondTone);}
+
+.coursecontact{
+    display:flex;
+    flex-direction: right;
+    justify-content: space-evenly;
+}
+.coursework {
+    margin: 1em;
+    border-radius: 25px;
+    border: 1em solid var(--secondTone);
+    background-color: var(--secondTone);
+    padding-bottom: 1em;
+}
+
+.striped {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;}
+.striped li:nth-of-type(odd){
+    background-color: var(--firstTone);
+}
+.striped li {
+    padding: .33em;
+}
+
+.languages {
+    margin: 1em;
+    border-radius: 25px;
+    border: 1em solid var(--secondTone);
+    background-color: var(--secondTone);
+    padding-bottom: 1em; 
+}
+
+table {
+    border-spacing: 0;}
+td, th, caption {
+    padding: 1em;}
+tr:nth-child(odd) {
+    background-color: var(--firstTone);
+}
+
+.contact {
+    display:flex;
+    justify-content: center;
+    background-color: lightbl;
+}
