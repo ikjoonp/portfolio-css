@@ -75,7 +75,7 @@ nav * {
 
 }
 #info img:hover {
-    transform: scale(2, 2);
+    transform: scale(1.5, 1.5);
 }
 
 .rightHeader {
@@ -117,8 +117,8 @@ iframe {
 
 .coursecontact{
     display:flex;
-    flex-direction: right;
     justify-content: space-evenly;
+    background-image: url('background1.jpg');
 }
 .coursework {
     margin: 1em;
@@ -184,3 +184,10 @@ figcaption {
     align-items: center;
     flex-direction: column;
   }
+
+#donut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
