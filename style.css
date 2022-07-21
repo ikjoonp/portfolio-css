@@ -87,7 +87,11 @@ nav * {
     margin: 1em;
     border-radius: 25px;
     border: 1em solid var(--firstTone);
-    background-color: var(--firstTone);}
+    background-color: var(--firstTone);
+    width: 100em;}
+iframe {
+    width:100%;
+}
 #interests{
     display: flex;
     flex-direction: row;
@@ -98,7 +102,13 @@ nav * {
 
 }
 .interestContent{
+    display: flex;
+    flex-flow: column wrap;
     margin: 1em;
+    justify-content: space-evenly;
+}
+.interestContent button{
+    width: 50%;
 }
 .coursecontact{
     display:flex;
