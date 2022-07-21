@@ -46,7 +46,7 @@ nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin: 5em;
+    padding: 1em;
 }
 nav * {
     display: flex;
