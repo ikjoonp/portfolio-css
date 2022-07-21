@@ -112,7 +112,7 @@ iframe {
     justify-content: space-evenly;
 }
 .interestContent button, canvas{
-    width: 25%;
+    width: 10em;
 }
 
 .coursecontact{
