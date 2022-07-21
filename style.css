@@ -175,3 +175,12 @@ textarea {
 ol select {
     transition:all 3s ease-out;
 }
+
+figcaption {
+    text-align: center;
+}
+.music {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
