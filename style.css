@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: SourceSansProLight;
-    src: url(SourceSansPro-Light.otf);
+    src: url(/media/SourceSansPro-Light.otf);
 }
 
 @keyframes tonal{
@@ -79,17 +79,17 @@ nav * {
 }
 @media (min-width: 360px){
     .background {
-        background-image: url(smallbackground.png);
+        background-image: url(/media/smallbackground.png);
     }
 }
 @media (min-width: 768px){
     .background {
-        background-image: url(mediumbackground.png);
+        background-image: url(/media/mediumbackground.png);
     }
 }
 @media (min-width: 1370px){
     .background {
-        background-image: url(largebackground.png);
+        background-image: url(/media/largebackground.png);
     }
 }
 
